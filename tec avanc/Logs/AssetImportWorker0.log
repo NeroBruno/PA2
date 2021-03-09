@@ -1,0 +1,250 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.804; Version 2009; 64bit' Language: 'pt' Physical Memory: 16252 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Claudio Pinto/Documents/GitHub/PA2/tec avanc
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62692
+Successfully changed project path to: C:/Users/Claudio Pinto/Documents/GitHub/PA2/tec avanc
+C:/Users/Claudio Pinto/Documents/GitHub/PA2/tec avanc
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 30.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Claudio Pinto/Documents/GitHub/PA2/tec avanc/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     4021 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001890 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 25.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.256 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.0 MB.
+System memory in use after: 57.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1556.
+Total: 3.841800 ms (FindLiveObjects: 0.566100 ms CreateObjectMapping: 0.211500 ms MarkObjects: 2.965200 ms  DeleteObjects: 0.097700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Goruad.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Goruad.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c755da93941d746c8a976afc69723348') in 0.056134 seconds
+  Import took 0.059203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.219250 seconds.
+  path: Assets/Gouraud.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gouraud.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02e2176796668450845707f39417fb5') in 0.003505 seconds
+  Import took 0.006092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.055383 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89434ac489deb914593f829e0a47671') in 0.003045 seconds
+  Import took 0.005969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000789 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89434ac489deb914593f829e0a47671') in 0.003520 seconds
+  Import took 0.007749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.239704 seconds.
+  path: Assets/Gouraud.mat
+  artifactKey: Guid(497caf7e13fef8842be5420481f1c1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gouraud.mat using Guid(497caf7e13fef8842be5420481f1c1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9214ecfab8b9db745af1d4ee95a326c') in 0.123333 seconds
+  Import took 0.131909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.240943 seconds.
+  path: Assets/Gouraud.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gouraud.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007f0c1f585de7d1150f58adb8ca4302') in 0.009174 seconds
+  Import took 0.012789 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001326 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.2 MB.
+System memory in use after: 60.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1599.
+Total: 4.309000 ms (FindLiveObjects: 0.131600 ms CreateObjectMapping: 0.037400 ms MarkObjects: 3.992300 ms  DeleteObjects: 0.145900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 894.337491 seconds.
+  path: Assets/Gouraud.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gouraud.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ea1c2890b5587603ea0bc61e8e6b24') in 0.013016 seconds
+  Import took 0.015578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004384 seconds.
+  path: Assets/Gouraud.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gouraud.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ea1c2890b5587603ea0bc61e8e6b24') in 0.002423 seconds
+  Import took 0.004660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 906.895572 seconds.
+  path: Assets/Gouraud.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gouraud.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33b3429554cf750c9632c4a30e771e9') in 0.009980 seconds
+  Import took 0.016099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000698 seconds.
+  path: Assets/Gouraud.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gouraud.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33b3429554cf750c9632c4a30e771e9') in 0.003956 seconds
+  Import took 0.007562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.717326 seconds.
+  path: Assets/Phong.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phong.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e935ff4adc054170520bd3f54a81c724') in 0.002912 seconds
+  Import took 0.005497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.323278 seconds.
+  path: Assets/Phong.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phong.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b949cefa6442c5bf82e79e6d373d76') in 0.003050 seconds
+  Import took 0.006913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.953729 seconds.
+  path: Assets/Phong.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phong.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b8e36044c828efb96cd3fc89ac41f0') in 0.007703 seconds
+  Import took 0.011587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.701961 seconds.
+  path: Assets/Phong.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phong.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fd8234022751baec255866d6ffbb89') in 0.006139 seconds
+  Import took 0.011115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.707266 seconds.
+  path: Assets/Phong.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phong.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13f5054962205739a54cfa412acd76a') in 0.012867 seconds
+  Import took 0.017934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.972648 seconds.
+  path: Assets/Phong.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phong.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34efa18d61dacee80f5fd077b953157d') in 0.004032 seconds
+  Import took 0.007732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.687037 seconds.
+  path: Assets/Phong.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phong.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c1353a7665f0d22102bc53265197e0') in 0.006060 seconds
+  Import took 0.010325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.178603 seconds.
+  path: Assets/Phong.shader
+  artifactKey: Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phong.shader using Guid(47b40ef8d361b7040826894e9a2db967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bb9707568098e9d6f612a3384bf307') in 0.004821 seconds
+  Import took 0.008516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.104418 seconds.
+  path: Assets/Sphere.prefab
+  artifactKey: Guid(d3997d54f4084074ba57446ca79fc980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere.prefab using Guid(d3997d54f4084074ba57446ca79fc980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbba055aeb9218b939ea8ccf2705b01') in 0.092062 seconds
+  Import took 0.096937 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
