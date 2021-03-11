@@ -1,0 +1,822 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1379; Version 1909; 64bit' Language: 'en' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2020.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Couto/Visual Studio Projects/PA2/Combat Mage
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60009
+Successfully changed project path to: C:/Users/Couto/Visual Studio Projects/PA2/Combat Mage
+C:/Users/Couto/Visual Studio Projects/PA2/Combat Mage
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Couto/Visual Studio Projects/PA2/Combat Mage/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6172
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001335 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001396 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000195F62A2020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F11F2020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F1507020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F588ADE0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F588ADE0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6B74670 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F18DD080 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F58A49F0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F1507020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6228020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F58A49F0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F701B230 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F1ABB010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F58A49F0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F71453C0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F17AB3B0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6255A30 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F652F7A0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6F38DF0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F18DD080 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F18DD080 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F701B230 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F5D32020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F5D32020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F5974010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2418 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.6 MB.
+System memory in use after: 109.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2829.
+Total: 3.055700 ms (FindLiveObjects: 0.265300 ms CreateObjectMapping: 0.069600 ms MarkObjects: 1.809300 ms  DeleteObjects: 0.910200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Example Template/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bb0c55b42cf9bee30bd87418c39614') in 0.034595 seconds
+  Import took 0.038485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.552062 seconds.
+  path: Assets/Example Template/Scenes
+  artifactKey: Guid(2360afbe5eb47e24a9bca697aff441f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Scenes using Guid(2360afbe5eb47e24a9bca697aff441f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e72b2e871cda2cb4d18e315684f95ef') in 0.007579 seconds
+  Import took 0.011278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.028356 seconds.
+  path: Assets/Example Template/Scenes/SampleSceneLightingSettings.lighting
+  artifactKey: Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Scenes/SampleSceneLightingSettings.lighting using Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7115d4893593872028ec64b7c03fee8a') in 0.009101 seconds
+  Import took 0.012888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.209514 seconds.
+  path: Assets/Example Template/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2e71227f598cbfe07ba6fb30ea725e') in 0.007651 seconds
+  Import took 0.011614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.352647 seconds.
+  path: Assets/Assets
+  artifactKey: Guid(ac8d75d4b88d8694cac5abf14dd6428f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets using Guid(ac8d75d4b88d8694cac5abf14dd6428f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19c1f8ad5730176a3c86a16c95354da') in 0.008025 seconds
+  Import took 0.011912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.747697 seconds.
+  path: Assets/Assets/Scenes
+  artifactKey: Guid(07c56167d75cb7542aa52097defe674e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scenes using Guid(07c56167d75cb7542aa52097defe674e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ad2e3efec07139dd3334291a5284e2') in 0.003537 seconds
+  Import took 0.007783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.755276 seconds.
+  path: Assets/Assets/Scenes/Test Scene Bruno.unity
+  artifactKey: Guid(403eed5f910a9f84d9ccfdc2773f9cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scenes/Test Scene Bruno.unity using Guid(403eed5f910a9f84d9ccfdc2773f9cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429cb519c093ab5c598e9fa2cf79ad38') in 0.010467 seconds
+  Import took 0.014586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001382 seconds.
+  path: Assets/Assets/Scenes/Test Scene Bruno.unity
+  artifactKey: Guid(403eed5f910a9f84d9ccfdc2773f9cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scenes/Test Scene Bruno.unity using Guid(403eed5f910a9f84d9ccfdc2773f9cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429cb519c093ab5c598e9fa2cf79ad38') in 0.003416 seconds
+  Import took 0.007717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.906383 seconds.
+  path: Assets/Assets/Materials
+  artifactKey: Guid(9a7fcd90e4f36794aba49bcc3d6283be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Materials using Guid(9a7fcd90e4f36794aba49bcc3d6283be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae8737de766e5842f4e2390732f1e04') in 0.006772 seconds
+  Import took 0.010597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061032 seconds.
+  path: Assets/Assets/Materials/green.mat
+  artifactKey: Guid(ca80e22ff5ac5904c9601b6d159370f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Materials/green.mat using Guid(ca80e22ff5ac5904c9601b6d159370f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7689466f94323a2fa84a57050e2dae4') in 0.251069 seconds
+  Import took 0.255237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.713904 seconds.
+  path: Assets/Example Template
+  artifactKey: Guid(c49f7422903a2974f91f26ef51c8c5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template using Guid(c49f7422903a2974f91f26ef51c8c5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595848f30cd2c84bbfc5e611c4047149') in 0.007782 seconds
+  Import took 0.011849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.176512 seconds.
+  path: Assets/Assets/Scripts
+  artifactKey: Guid(51e917cb1f318d44d9985efe68514984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts using Guid(51e917cb1f318d44d9985efe68514984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b504a2b4651693e6dbe3e190f38a83') in 0.007170 seconds
+  Import took 0.011465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.887300 seconds.
+  path: Assets/Assets/Scripts/Mouse_Look.cs
+  artifactKey: Guid(41726cf549d86d6458201af5d5fea68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Mouse_Look.cs using Guid(41726cf549d86d6458201af5d5fea68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816b04478d8b4228b79a48054e7f4040') in 0.012110 seconds
+  Import took 0.015642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.200243 seconds.
+  path: Assets/Assets/Scripts/Player_Movement.cs
+  artifactKey: Guid(04c43e597e983a847b8b3b074822a4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Player_Movement.cs using Guid(04c43e597e983a847b8b3b074822a4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8404da2d7e8f52f077775e947da5bbfc') in 0.006852 seconds
+  Import took 0.010354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 511.383164 seconds.
+  path: Assets/Assets/Scenes/Player Test.unity
+  artifactKey: Guid(ad20cc277d710a64eb6923c5d62394ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scenes/Player Test.unity using Guid(ad20cc277d710a64eb6923c5d62394ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2436facef3fc2a2ca04480c37e6a9c17') in 0.008032 seconds
+  Import took 0.011697 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001043 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000195F15D2580 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F5858450 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB904C20 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F8303010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F1ABB010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F7A0B030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195C7CEC1E0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F7A0B030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6250 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F5FB1020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F7A0B030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6820 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961D4E3010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F7A0B030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F194E190 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6D6B430 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F7A0B030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F8915010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961D3D2AA0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F1ADA420 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F196B020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6C00 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F10E15D0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6F21010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F1A30DD0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2343 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.9 MB.
+System memory in use after: 112.0 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2910.
+Total: 3.346700 ms (FindLiveObjects: 0.304800 ms CreateObjectMapping: 0.064600 ms MarkObjects: 2.036400 ms  DeleteObjects: 0.939300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 372.648641 seconds.
+  path: Assets/Assets/Prefabs/Player.prefab
+  artifactKey: Guid(0d478ab0e28ad554f95cb08978f4d84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Player.prefab using Guid(0d478ab0e28ad554f95cb08978f4d84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f8ed2cb3c3db983f05334f87e2b581') in 0.035380 seconds
+  Import took 0.040217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.868573 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8bcfb4600d5bc0bfa7979aef931b5d') in 0.011297 seconds
+  Import took 0.014725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017936 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8bcfb4600d5bc0bfa7979aef931b5d') in 0.004615 seconds
+  Import took 0.009145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 589.336045 seconds.
+  path: Assets/Assets/Prefabs
+  artifactKey: Guid(75060782f22353c44b6b2f8af8db840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs using Guid(75060782f22353c44b6b2f8af8db840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b1cda189d8deee4640236346bf42db') in 0.006801 seconds
+  Import took 0.011010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058608 seconds.
+  path: Assets/Assets/Prefabs/Player.prefab
+  artifactKey: Guid(0d478ab0e28ad554f95cb08978f4d84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Player.prefab using Guid(0d478ab0e28ad554f95cb08978f4d84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f85b785fa9e15dedc327803a847060') in 0.003805 seconds
+  Import took 0.007792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.175770 seconds.
+  path: Assets/Assets/Scripts/Player
+  artifactKey: Guid(f57379237c2a57b479c8cb143a4233c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Player using Guid(f57379237c2a57b479c8cb143a4233c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1909d75f2975bbc272d7eb1fe89f481f') in 0.002535 seconds
+  Import took 0.005983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.387035 seconds.
+  path: Assets/Assets/Scripts/Player/MouseLook.cs
+  artifactKey: Guid(f31b59c73f63d074fa0af1a764260cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Player/MouseLook.cs using Guid(f31b59c73f63d074fa0af1a764260cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fdbe0c522b443d00a0041544eef592') in 0.007014 seconds
+  Import took 0.010488 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001131 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000195FB140010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB3DA1E0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB905580 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F65C0410 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB22D7A0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961E51D010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F1B09010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F585DC40 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6630 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F1A30DD0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961E51D010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6DF0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F1517320 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961D2D8020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F5C21ED0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F8AD17D0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB3DF080 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FAFF1A10 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961E13E630 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F8B616B0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB40EA50 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6DF0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F733B030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F733B030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F56A0080 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2344 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.0 MB.
+System memory in use after: 112.0 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2914.
+Total: 3.301800 ms (FindLiveObjects: 0.337600 ms CreateObjectMapping: 0.099700 ms MarkObjects: 1.800800 ms  DeleteObjects: 1.061900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3497.701923 seconds.
+  path: Assets/FPSCamera.asset
+  artifactKey: Guid(8c5f09e5e1423c64385ee76503b1b770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPSCamera.asset using Guid(8c5f09e5e1423c64385ee76503b1b770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe7b8f3465ed3ab77df5bdf7b487fa9') in 0.033353 seconds
+  Import took 0.038523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.223900 seconds.
+  path: Assets/Example Template/Settings
+  artifactKey: Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Settings using Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5204cf74331b8d040aa6232193a54df') in 0.036533 seconds
+  Import took 0.040345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034242 seconds.
+  path: Assets/Example Template/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b1aa3e42052f66e03a031757c35227') in 0.017952 seconds
+  Import took 0.022971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Example Template/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbcdc113b723b75b59ae724f04a3180') in 0.009191 seconds
+  Import took 0.012869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Example Template/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4993eda93e6577ff6a79220a8343e0') in 0.014288 seconds
+  Import took 0.017830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Example Template/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e42684764b26a10dbdf077f60f09b4') in 0.014773 seconds
+  Import took 0.018745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Example Template/Settings/UniversalRP-HighQuality.asset
+  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273019ca297b0091e9f691fb3b1aac8c') in 0.014426 seconds
+  Import took 0.017895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.404194 seconds.
+  path: Assets/Third Party
+  artifactKey: Guid(f75504cbeb7cd674599a0863e7857413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party using Guid(f75504cbeb7cd674599a0863e7857413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe27f8fa165b30ff9c44628390c7dd44') in 0.009972 seconds
+  Import took 0.014230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.122218 seconds.
+  path: Assets/FPSCamera.asset
+  artifactKey: Guid(8c5f09e5e1423c64385ee76503b1b770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPSCamera.asset using Guid(8c5f09e5e1423c64385ee76503b1b770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b536463faa554bd5c75ef1e855ed30') in 0.007440 seconds
+  Import took 0.011561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007043 seconds.
+  path: Assets/FPSCamera.asset
+  artifactKey: Guid(8c5f09e5e1423c64385ee76503b1b770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPSCamera.asset using Guid(8c5f09e5e1423c64385ee76503b1b770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b536463faa554bd5c75ef1e855ed30') in 0.007126 seconds
+  Import took 0.010676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.630058 seconds.
+  path: Assets/Example Template/Settings/UniversalRP-HighQuality.asset
+  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a6b5ce32b5cc7a9efc87fb782080a6') in 0.004649 seconds
+  Import took 0.008977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Example Template/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9276e837a91abed82813fe80af902fbc') in 0.003229 seconds
+  Import took 0.006557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Example Template/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c183fdb0100e8b84b466e4a6efa764c6') in 0.005458 seconds
+  Import took 0.010260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.324218 seconds.
+  path: Assets/Example Template/Settings/UniversalRP-HighQuality.asset
+  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae7937c4248a20b7a088b4b88083bd3') in 0.014583 seconds
+  Import took 0.020282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Example Template/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8575626def66e922f4bc4fb66c9ba5') in 0.009052 seconds
+  Import took 0.015634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Example Template/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example Template/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2f8c68a7bac2407ec9431f479874ac') in 0.008407 seconds
+  Import took 0.012913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.300365 seconds.
+  path: Assets/Assets/Scripts/Camera
+  artifactKey: Guid(05dcf719d0f769042ab43d45837702e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Camera using Guid(05dcf719d0f769042ab43d45837702e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7663f5fabd38140ffa91fa8464baf186') in 0.011113 seconds
+  Import took 0.017049 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001268 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000195FB0E4100 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FBDAE040 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FBD4B190 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F5AB2030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB22D7A0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB5F6020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961E3995C0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F585DC40 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6060 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961D5FE010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F584B010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6060 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F1517320 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6D63420 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F5AD0E10 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FBE80DE0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FAFF1A10 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F7F6D020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961D46A3E0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FAFD0030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F196B020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6630 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F5AB2030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F5AB2030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961DCAE650 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.805 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 112.1 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2919.
+Total: 4.091800 ms (FindLiveObjects: 0.279200 ms CreateObjectMapping: 0.080800 ms MarkObjects: 2.572700 ms  DeleteObjects: 1.157100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.881065 seconds.
+  path: Assets/Assets/Scripts/Camera/FirstPersonCamera.cs
+  artifactKey: Guid(7454cb65d4631644ba4b537763a21aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/Camera/FirstPersonCamera.cs using Guid(7454cb65d4631644ba4b537763a21aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b159484d10239de4143a0aab3259a83') in 0.010468 seconds
+  Import took 0.014100 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001108 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000195F15D2580 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F8459D50 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB904A40 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F65C0410 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB22D7A0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FAEE1CD0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB194010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FAEF1C60 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6250 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F76A5010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F584B010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6820 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB802020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961E1654D0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F5C21E60 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB0D2D40 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F8AAA010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F8915010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961E145EF0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F5FC9F40 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F1235010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6250 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F8303010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961D961010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F56A0080 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.794 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.0 MB.
+System memory in use after: 112.1 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2923.
+Total: 3.592200 ms (FindLiveObjects: 0.327500 ms CreateObjectMapping: 0.109000 ms MarkObjects: 2.058900 ms  DeleteObjects: 1.094700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001105 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000195F15D2580 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB906820 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961DFD1DB0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961D368020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961D368020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FAEE1CD0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F62E4010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F111A730 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6820 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F73B7C10 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F87C4020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6820 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F8419D20 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001961E1654D0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB504C80 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FBE8ABC0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F79E8ED0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F1517320 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195FB7AB2D0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F8AC7C90 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F8927020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F6DD6820 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F1517320 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F1517320 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000195F5974010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.0 MB.
+System memory in use after: 112.0 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2926.
+Total: 3.552300 ms (FindLiveObjects: 0.452500 ms CreateObjectMapping: 0.163400 ms MarkObjects: 1.800700 ms  DeleteObjects: 1.132900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
