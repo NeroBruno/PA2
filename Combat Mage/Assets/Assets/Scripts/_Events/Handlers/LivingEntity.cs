@@ -49,7 +49,7 @@ public class LivingEntity : MonoBehaviour
 
     private void Start()
     {
-        Hitboxes = GetComponentInChildren<Hitbox>();
+        Hitboxes = GetComponentsInChildren<Hitbox>();
 
         foreach (var component in GetComponentsInChildren<LivingEntityComponent>(true))
             component.OnEntityStart();
