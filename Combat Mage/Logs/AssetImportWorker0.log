@@ -15,11 +15,11 @@ C:/Users/Couto/Visual Studio Projects/PA2/Combat Mage
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61196
+62874
 Successfully changed project path to: C:/Users/Couto/Visual Studio Projects/PA2/Combat Mage
 C:/Users/Couto/Visual Studio Projects/PA2/Combat Mage
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 53.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,558 +35,699 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001305 seconds.
+Registered in 0.001268 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 39.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.938 seconds
+- Completed reload, in  0.881 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002018 seconds.
+Registered in 0.001157 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000021AF6F48010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF77A8030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2C535D0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7150260 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7150260 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7150260 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF74BE7A0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF6E1FA20 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2FE22A0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF79EC020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7163670 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2FE2870 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF79EC020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7A8FE30 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2C9DA80 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7D7C040 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7771A30 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7A11E30 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF31011A0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7A98840 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7A98840 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2FE2680 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7BF2010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7BF2010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2BE9010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.885 seconds
+- Completed reload, in  0.889 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2420 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 111.7 MB.
-System memory in use after: 109.7 MB.
+Unloading 2434 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.6 MB.
+System memory in use after: 110.7 MB.
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2831.
-Total: 4.557500 ms (FindLiveObjects: 0.454900 ms CreateObjectMapping: 0.155200 ms MarkObjects: 2.092300 ms  DeleteObjects: 1.852800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Project Settings/Lighting Settings.lighting
-  artifactKey: Guid(1710ebc2518f5424ca75cd2e44a53335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Project Settings/Lighting Settings.lighting using Guid(1710ebc2518f5424ca75cd2e44a53335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9b8ce644f7c434e94939888f44c554') in 0.060277 seconds
-  Import took 0.065889 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001107 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021AF6DC2010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF85EAC40 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFD06E330 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2D02010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2C53A50 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF9EF0010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF28775E0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF99E0030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2FE2A60 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFD527F50 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF9EF0010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2FE2A60 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7150260 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF99E0030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF8D32030 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF3102020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF9EF0010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF288CA40 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFD330600 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF28B9D20 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF9A4A020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2FE2E40 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF9A92010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF8661020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF9B64720 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.752 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.6 MB.
-System memory in use after: 106.6 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2834.
-Total: 3.386900 ms (FindLiveObjects: 0.269900 ms CreateObjectMapping: 0.065900 ms MarkObjects: 1.819900 ms  DeleteObjects: 1.229700 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2846.
+Total: 4.261000 ms (FindLiveObjects: 0.282800 ms CreateObjectMapping: 0.089100 ms MarkObjects: 2.745800 ms  DeleteObjects: 1.141600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 171.408063 seconds.
-  path: Assets/Assets/Scenes/Player Test.unity
-  artifactKey: Guid(ad20cc277d710a64eb6923c5d62394ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scenes/Player Test.unity using Guid(ad20cc277d710a64eb6923c5d62394ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09044dc40c13ceff8387334a050b773e') in 0.014840 seconds
-  Import took 0.019592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 264.612234 seconds.
-  path: Assets/Assets/Scripts/Components
-  artifactKey: Guid(96f592c5f77d44f46bfddc51f5324287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Components using Guid(96f592c5f77d44f46bfddc51f5324287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aba774d5e01bd9fc056de008f17a6d1') in 0.006852 seconds
-  Import took 0.010911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.971022 seconds.
-  path: Assets/Assets/Scripts/Events
-  artifactKey: Guid(37f311d6da8beab4c8f94dc34aa12885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Events using Guid(37f311d6da8beab4c8f94dc34aa12885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b65e14c4d39dbbb165303a946ba9c40') in 0.007260 seconds
-  Import took 0.011722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.931420 seconds.
-  path: Assets/Assets/Scripts/Events/Components
-  artifactKey: Guid(c0f6ca0b7db2a8f4b9e74713d5531053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Events/Components using Guid(c0f6ca0b7db2a8f4b9e74713d5531053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c66c34219695587fc30eb769497a1f') in 0.002622 seconds
-  Import took 0.006514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.550348 seconds.
-  path: Assets/Assets/Scripts/Events/Components/LivingEntityComponent.cs
-  artifactKey: Guid(a4ab7879eeefc9a4a8de2680dfcb357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Events/Components/LivingEntityComponent.cs using Guid(a4ab7879eeefc9a4a8de2680dfcb357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cd4a9a144ed483d653e064c59313c2') in 0.013576 seconds
-  Import took 0.020651 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001073 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021AF7A32020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFA3D75F0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFD06DBB0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFA3069F0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7237010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF910A010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFCC4B0D0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF911E2B0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2FE22A0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF9604690 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFD515E00 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2FE2870 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFC75DAB0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFA3E9C50 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF70598B0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFD3AA610 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF9E4D040 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF288CA40 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFD3295E0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF28B9D20 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2E08020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2FE2870 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFA3069F0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFA3069F0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFD178FD0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.777 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2346 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.7 MB.
-System memory in use after: 106.7 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2838.
-Total: 3.206000 ms (FindLiveObjects: 0.263800 ms CreateObjectMapping: 0.060100 ms MarkObjects: 1.657300 ms  DeleteObjects: 1.222400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 345.832092 seconds.
-  path: Assets/Assets/Scripts/Events/Components/LivingEntityComponent.cs
-  artifactKey: Guid(a4ab7879eeefc9a4a8de2680dfcb357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Events/Components/LivingEntityComponent.cs using Guid(a4ab7879eeefc9a4a8de2680dfcb357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212f7e541afbe5f29bf88675eded4c49') in 0.016119 seconds
-  Import took 0.023890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 164.547175 seconds.
-  path: Assets/Assets/Scripts/Events/Components/LivingEntityComponent.cs
-  artifactKey: Guid(a4ab7879eeefc9a4a8de2680dfcb357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Events/Components/LivingEntityComponent.cs using Guid(a4ab7879eeefc9a4a8de2680dfcb357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad211f3a3b7872258d708e6b1d3806eb') in 0.006864 seconds
-  Import took 0.013980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.272722 seconds.
-  path: Assets/Assets/Scripts/_Events
-  artifactKey: Guid(37f311d6da8beab4c8f94dc34aa12885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/_Events using Guid(37f311d6da8beab4c8f94dc34aa12885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726d5619888a406caafd8052d8780db9') in 0.011393 seconds
-  Import took 0.017913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.432524 seconds.
-  path: Assets/Assets/Scripts/_Events/Handlers
-  artifactKey: Guid(3242ba8aecf90e545b41539dd8a2b8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/_Events/Handlers using Guid(3242ba8aecf90e545b41539dd8a2b8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39680cae6585142d691f437c4e06787') in 0.007617 seconds
-  Import took 0.012234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.510211 seconds.
   path: Assets/Assets/Scripts/_Events/Handlers/LivingEntity.cs
   artifactKey: Guid(acf3218d33e3f3c4bb5fda12facc9382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/_Events/Handlers/LivingEntity.cs using Guid(acf3218d33e3f3c4bb5fda12facc9382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefe633f88d54dca33509035726ce1e9') in 0.011703 seconds
-  Import took 0.039332 seconds .
+Start importing Assets/Assets/Scripts/_Events/Handlers/LivingEntity.cs using Guid(acf3218d33e3f3c4bb5fda12facc9382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff634f6265b8a265b061054ef3ca0320') in 0.023734 seconds
+  Import took 0.028665 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001045 seconds.
-  path: Assets/Assets/Scripts/_Events/Handlers/LivingEntity.cs
-  artifactKey: Guid(acf3218d33e3f3c4bb5fda12facc9382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/_Events/Handlers/LivingEntity.cs using Guid(acf3218d33e3f3c4bb5fda12facc9382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefe633f88d54dca33509035726ce1e9') in 0.004843 seconds
-  Import took 0.009758 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001077 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021AF7A32020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFCAA8580 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF8D0ED90 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFCEB9040 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7237010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF8BFF010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFD478040 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2B0C020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2FE2E40 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFCEFEF00 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFD515E00 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2FE2E40 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF7C02020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFA3E9C50 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF70598B0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFCE28B20 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFD537F60 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF9A92010 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF960E230 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFD478040 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF9A4A020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AF2FE2E40 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFCB36020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFCB36020 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021AFD178FD0 doesn't match image C:\Users\Couto\Visual Studio Projects\PA2\Combat Mage\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.722 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2347 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.8 MB.
-System memory in use after: 106.8 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2842.
-Total: 6.052800 ms (FindLiveObjects: 0.422300 ms CreateObjectMapping: 0.352300 ms MarkObjects: 3.334800 ms  DeleteObjects: 1.940800 ms)
+  Time since last request: 55922.443635 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ccf7a10dc5de9ed74cccb4809ba3ea') in 0.006666 seconds
+  Import took 0.010719 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 139.884252 seconds.
-  path: Assets/Assets/Scripts/_Events/Handlers/LivingEntity.cs
-  artifactKey: Guid(acf3218d33e3f3c4bb5fda12facc9382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/_Events/Handlers/LivingEntity.cs using Guid(acf3218d33e3f3c4bb5fda12facc9382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241eb3865d5818bb024fcd2523355157') in 0.010607 seconds
-  Import took 0.061210 seconds .
+  Time since last request: 7.882234 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64f7765893389b17b9cb67c5bde6e56') in 0.003556 seconds
+  Import took 0.007191 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.531019 seconds.
-  path: Assets/Assets/Scripts/_Events/Types
-  artifactKey: Guid(1c74f33e4bd5f7f48a2dfca6ca4c5fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/_Events/Types using Guid(1c74f33e4bd5f7f48a2dfca6ca4c5fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594f148a8191bb31c8c541db59509ac5') in 0.008173 seconds
-  Import took 0.012605 seconds .
+  Time since last request: 26.819368 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf19d30e4f114466fe7c4166728efc5') in 0.003577 seconds
+  Import took 0.007134 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.711900 seconds.
-  path: Assets/Assets/Scripts/_Events/Types/Value.cs
-  artifactKey: Guid(0764f67973764d1428fd28936535415f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/_Events/Types/Value.cs using Guid(0764f67973764d1428fd28936535415f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b131defc742485397be7cf3198e746') in 0.013420 seconds
-  Import took 0.042925 seconds .
+  Time since last request: 0.001702 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf19d30e4f114466fe7c4166728efc5') in 0.003931 seconds
+  Import took 0.034675 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6104.693623 seconds.
-  path: Assets/Assets/Scripts/_Events/Types/Value.cs
-  artifactKey: Guid(0764f67973764d1428fd28936535415f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/_Events/Types/Value.cs using Guid(0764f67973764d1428fd28936535415f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cfd24d6ef37f4526d9121dc50bf00a') in 0.005391 seconds
-  Import took 0.012070 seconds .
+  Time since last request: 50.452250 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f7a7d5c48674750202b29f61a3ef08') in 0.003558 seconds
+  Import took 0.007220 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.011968 seconds.
-  path: Assets/Assets/Scripts/_Events/Types/Value.cs
-  artifactKey: Guid(0764f67973764d1428fd28936535415f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/_Events/Types/Value.cs using Guid(0764f67973764d1428fd28936535415f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cfd24d6ef37f4526d9121dc50bf00a') in 0.005565 seconds
-  Import took 0.012355 seconds .
+  Time since last request: 0.002613 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f7a7d5c48674750202b29f61a3ef08') in 0.003794 seconds
+  Import took 0.008550 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 81.705233 seconds.
-  path: Assets/Assets/Scripts/_Events/Types/Attempt.cs
-  artifactKey: Guid(488b31614c149be4288dbed272036a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/_Events/Types/Attempt.cs using Guid(488b31614c149be4288dbed272036a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31156ec0fc8560653e314e85bdb6801') in 0.008391 seconds
-  Import took 0.056171 seconds .
+  Time since last request: 22.147198 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c6c0ff5ab84eed38e61a103a1bf2de') in 0.003625 seconds
+  Import took 0.007500 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 807.057477 seconds.
-  path: Assets/Assets/Scripts/_Events/Types/Attempt.cs
-  artifactKey: Guid(488b31614c149be4288dbed272036a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/_Events/Types/Attempt.cs using Guid(488b31614c149be4288dbed272036a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac7fc7c4123b71133288d9dcdd5dcc5') in 0.003233 seconds
-  Import took 0.007260 seconds .
+  Time since last request: 0.002180 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c6c0ff5ab84eed38e61a103a1bf2de') in 0.003484 seconds
+  Import took 0.007141 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 49.230157 seconds.
-  path: Assets/Assets/Scripts/_Events/Handlers/LivingEntity.cs
-  artifactKey: Guid(acf3218d33e3f3c4bb5fda12facc9382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/_Events/Handlers/LivingEntity.cs using Guid(acf3218d33e3f3c4bb5fda12facc9382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad67dbf9c195a5dd27b18a35c93bc8d7') in 0.007215 seconds
-  Import took 0.011387 seconds .
+  Time since last request: 20.110070 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e2ae18e93639a9831898293be74385') in 0.003317 seconds
+  Import took 0.007061 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 127.441359 seconds.
-  path: Assets/Assets/Scripts/Damage
-  artifactKey: Guid(57747ee01441ef747bb1e9e01b9fb83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Damage using Guid(57747ee01441ef747bb1e9e01b9fb83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdd9b2f29c15a793461e7c63dbb5204') in 0.015787 seconds
-  Import took 0.064466 seconds .
+  Time since last request: 25.258985 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf382c887f413f1d69ee6df662b7266') in 0.003858 seconds
+  Import took 0.008281 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.038552 seconds.
-  path: Assets/Assets/Scripts/Damage/HealthEventData.cs
-  artifactKey: Guid(ced6c271181285d4b925d7071af42f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Damage/HealthEventData.cs using Guid(ced6c271181285d4b925d7071af42f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563f4beeab873812498b6f55f4242287') in 0.008334 seconds
-  Import took 0.046806 seconds .
+  Time since last request: 0.001135 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf382c887f413f1d69ee6df662b7266') in 0.003298 seconds
+  Import took 0.007259 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 964.295763 seconds.
-  path: Assets/Assets/Scripts/Damage/HealthEventData.cs
-  artifactKey: Guid(ced6c271181285d4b925d7071af42f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Damage/HealthEventData.cs using Guid(ced6c271181285d4b925d7071af42f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c5397d493ca104ccf0265d655f3257') in 0.005449 seconds
-  Import took 0.046853 seconds .
+  Time since last request: 23.037186 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06231229daf9dbf4aae2f712bebd9561') in 0.003386 seconds
+  Import took 0.007311 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.349563 seconds.
-  path: Assets/Assets/Scripts/_Events/Types/Message.cs
-  artifactKey: Guid(44c8230b20fca504f976ac951370b04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/_Events/Types/Message.cs using Guid(44c8230b20fca504f976ac951370b04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0bf5e5b8c6cd18787ce956b079dba2') in 0.008201 seconds
-  Import took 0.052508 seconds .
+  Time since last request: 8.454372 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9ca63aef8d4932572ec53f3d844ec8') in 0.003157 seconds
+  Import took 0.007215 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 409.303275 seconds.
-  path: Assets/Assets/Scripts/_Events/Types/Message.cs
-  artifactKey: Guid(44c8230b20fca504f976ac951370b04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/_Events/Types/Message.cs using Guid(44c8230b20fca504f976ac951370b04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6393a5ee8db2e127af99d8c5b2002b59') in 0.003997 seconds
-  Import took 0.007446 seconds .
+  Time since last request: 0.002558 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9ca63aef8d4932572ec53f3d844ec8') in 0.003239 seconds
+  Import took 0.006880 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 185.308136 seconds.
-  path: Assets/Assets/Scripts/Damage/Hitbox.cs
-  artifactKey: Guid(cd56a78b96e560b42b6b1eeb3bb3489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Damage/Hitbox.cs using Guid(cd56a78b96e560b42b6b1eeb3bb3489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdeded6f8a3972d20d74a13eb11f047') in 0.010203 seconds
-  Import took 0.014655 seconds .
+  Time since last request: 14.865720 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b2a0698912d57ada5a1fe5497d3b78') in 0.003546 seconds
+  Import took 0.007238 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 363.741659 seconds.
-  path: Assets/Assets/Scripts/Damage/Hitbox.cs
-  artifactKey: Guid(cd56a78b96e560b42b6b1eeb3bb3489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Damage/Hitbox.cs using Guid(cd56a78b96e560b42b6b1eeb3bb3489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfdb35b73d5b8f6cc3688b338532583') in 0.013494 seconds
-  Import took 0.021939 seconds .
+  Time since last request: 0.002135 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b2a0698912d57ada5a1fe5497d3b78') in 0.003344 seconds
+  Import took 0.007358 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003243 seconds.
-  path: Assets/Assets/Scripts/Damage/Hitbox.cs
-  artifactKey: Guid(cd56a78b96e560b42b6b1eeb3bb3489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Damage/Hitbox.cs using Guid(cd56a78b96e560b42b6b1eeb3bb3489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfdb35b73d5b8f6cc3688b338532583') in 0.003992 seconds
-  Import took 0.008810 seconds .
+  Time since last request: 31.726235 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd917d2185939db982eeaa88ac05a22') in 0.003261 seconds
+  Import took 0.006757 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.156220 seconds.
-  path: Assets/Assets/Scripts/Damage/IDamageable.cs
-  artifactKey: Guid(f12744584d3efb347ad3aff052cb3f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Damage/IDamageable.cs using Guid(f12744584d3efb347ad3aff052cb3f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42da2723a910b638d516785c684bd6c8') in 0.058868 seconds
-  Import took 0.064129 seconds .
+  Time since last request: 27.084026 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cd3bcf5a962979fbdbf5f401401b7c') in 0.003479 seconds
+  Import took 0.007215 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 65.957401 seconds.
-  path: Assets/Assets/Scripts/Damage/IDamageable.cs
-  artifactKey: Guid(f12744584d3efb347ad3aff052cb3f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Scripts/Damage/IDamageable.cs using Guid(f12744584d3efb347ad3aff052cb3f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fc9c1ed5050e49f34053a57787bee5') in 0.008488 seconds
-  Import took 0.014422 seconds .
+  Time since last request: 7.168589 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3da217210f7ce3ab214843a3b876bd') in 0.003634 seconds
+  Import took 0.007857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001830 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3da217210f7ce3ab214843a3b876bd') in 0.003728 seconds
+  Import took 0.007608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.700009 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9af705f441b68c5a2287944a948e3c') in 0.003472 seconds
+  Import took 0.007410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001856 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9af705f441b68c5a2287944a948e3c') in 0.003373 seconds
+  Import took 0.007565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.575160 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80af254d142f5d2b30f1892e2f4b1394') in 0.003301 seconds
+  Import took 0.007121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002937 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80af254d142f5d2b30f1892e2f4b1394') in 0.002948 seconds
+  Import took 0.006547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.037033 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee55bc40b63c20769800f172b0de487') in 0.003975 seconds
+  Import took 0.009757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003474 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee55bc40b63c20769800f172b0de487') in 0.006101 seconds
+  Import took 0.013889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.869461 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4b62f466d7b23067a00d2982fc9fa7') in 0.003317 seconds
+  Import took 0.006884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002405 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4b62f466d7b23067a00d2982fc9fa7') in 0.003184 seconds
+  Import took 0.006855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.993490 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f75d16c404e5256ed1fdf1b3024acd') in 0.003850 seconds
+  Import took 0.007749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002378 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f75d16c404e5256ed1fdf1b3024acd') in 0.003906 seconds
+  Import took 0.007748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.908019 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03820a87c7efae9300facb490dbda1a0') in 0.003394 seconds
+  Import took 0.007935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001738 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03820a87c7efae9300facb490dbda1a0') in 0.003554 seconds
+  Import took 0.007540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.281324 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd586b4e10df0aa22f923231a32dcdc7c') in 0.003250 seconds
+  Import took 0.007433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001985 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd586b4e10df0aa22f923231a32dcdc7c') in 0.003733 seconds
+  Import took 0.007298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.478301 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb646e415c8c7b5c66ebca4f820972f1') in 0.003567 seconds
+  Import took 0.007781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001446 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb646e415c8c7b5c66ebca4f820972f1') in 0.003162 seconds
+  Import took 0.006870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.274203 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5747976780787be81682fe60425c1b') in 0.003583 seconds
+  Import took 0.007380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002586 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5747976780787be81682fe60425c1b') in 0.055244 seconds
+  Import took 0.059537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.226550 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e166e65af1c4e61ad4b901783bcefc') in 0.003245 seconds
+  Import took 0.006962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003133 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e166e65af1c4e61ad4b901783bcefc') in 0.003508 seconds
+  Import took 0.007652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.754161 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769deb0c42e4c1ee00b869ba6ce17526') in 0.002996 seconds
+  Import took 0.007059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002156 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769deb0c42e4c1ee00b869ba6ce17526') in 0.002946 seconds
+  Import took 0.006550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.377951 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744f8a711d9a70b0e4da28ed50212e1d') in 0.003289 seconds
+  Import took 0.007383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002146 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744f8a711d9a70b0e4da28ed50212e1d') in 0.003493 seconds
+  Import took 0.007764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.374013 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1f87da89666a64ff892effe0c720c7') in 0.004719 seconds
+  Import took 0.009428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002337 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1f87da89666a64ff892effe0c720c7') in 0.003550 seconds
+  Import took 0.007775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.191191 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09538157037083898962b0be2bbb767') in 0.003512 seconds
+  Import took 0.007326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002774 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09538157037083898962b0be2bbb767') in 0.003229 seconds
+  Import took 0.007038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.100343 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26da2542b5e6467d893642090a92b6c2') in 0.003665 seconds
+  Import took 0.007690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001840 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26da2542b5e6467d893642090a92b6c2') in 0.003314 seconds
+  Import took 0.007053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.669089 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7bad7f3bfaab3425f093483a293e10') in 0.003631 seconds
+  Import took 0.007958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001075 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7bad7f3bfaab3425f093483a293e10') in 0.003143 seconds
+  Import took 0.007032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.674813 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de78ef29636c5e0d2d866da54ae4e525') in 0.003133 seconds
+  Import took 0.006982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002905 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de78ef29636c5e0d2d866da54ae4e525') in 0.025420 seconds
+  Import took 0.029388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.423113 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b86c3e6a5985afad5a28c373240649') in 0.003263 seconds
+  Import took 0.007038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003665 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b86c3e6a5985afad5a28c373240649') in 0.003282 seconds
+  Import took 0.007167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.577894 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e714c9aa310ef2f3286915b4835d39b6') in 0.003356 seconds
+  Import took 0.007143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002600 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e714c9aa310ef2f3286915b4835d39b6') in 0.003300 seconds
+  Import took 0.006850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.283620 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621e7d4f3b3e9e005340036ea3556b6e') in 0.003523 seconds
+  Import took 0.007621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002673 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621e7d4f3b3e9e005340036ea3556b6e') in 0.003721 seconds
+  Import took 0.007921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.457082 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f741eb24e61feb8718451816b10200f2') in 0.003497 seconds
+  Import took 0.007110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002281 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f741eb24e61feb8718451816b10200f2') in 0.003281 seconds
+  Import took 0.007430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.341566 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ceacbd3523c4f565c7b08189c48960') in 0.003361 seconds
+  Import took 0.007263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.980293 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3a911f2abffae8b6ee9f3872769b02') in 0.003149 seconds
+  Import took 0.007433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001631 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3a911f2abffae8b6ee9f3872769b02') in 0.003134 seconds
+  Import took 0.007215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.282297 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aed7f5131dda5e1775eed222f593bc1') in 0.003249 seconds
+  Import took 0.006977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002328 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aed7f5131dda5e1775eed222f593bc1') in 0.003585 seconds
+  Import took 0.007473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.532269 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6d3455641e1e078db2b0140dce0b6b') in 0.003392 seconds
+  Import took 0.007156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001809 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6d3455641e1e078db2b0140dce0b6b') in 0.003197 seconds
+  Import took 0.007112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.258657 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9ee6860b0651e651988d9fec787db3') in 0.003306 seconds
+  Import took 0.007852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002195 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9ee6860b0651e651988d9fec787db3') in 0.003236 seconds
+  Import took 0.007050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.820965 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afc71142394b2aa688566f6fc96e25e') in 0.004498 seconds
+  Import took 0.008454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001834 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afc71142394b2aa688566f6fc96e25e') in 0.003855 seconds
+  Import took 0.008616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.234013 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7183a8b4c94cb11d5e4373be8ee86b3') in 0.003085 seconds
+  Import took 0.006704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002759 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7183a8b4c94cb11d5e4373be8ee86b3') in 0.003651 seconds
+  Import took 0.007547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.360364 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0747ccd43629ec85aaee0d29c0aa0e') in 0.003211 seconds
+  Import took 0.007603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001926 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0747ccd43629ec85aaee0d29c0aa0e') in 0.002905 seconds
+  Import took 0.006822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.912818 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d251b1f19e60a77885d9243adcd445') in 0.003533 seconds
+  Import took 0.007162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003073 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d251b1f19e60a77885d9243adcd445') in 0.002957 seconds
+  Import took 0.007153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.189787 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbb2a769e3b15ca10d00398e32c34aa') in 0.005999 seconds
+  Import took 0.009534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Assets/Scripts/_Events/Types/Activity.cs
+  artifactKey: Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scripts/_Events/Types/Activity.cs using Guid(cb2f519ea0871744cab590718729b771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbb2a769e3b15ca10d00398e32c34aa') in 0.003229 seconds
+  Import took 0.006903 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

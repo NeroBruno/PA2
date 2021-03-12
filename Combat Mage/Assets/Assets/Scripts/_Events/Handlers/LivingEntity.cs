@@ -32,7 +32,7 @@ public class LivingEntity : MonoBehaviour
     public Hitbox[] Hitboxes;
 
     /// <summary>
-    /// Spells that are currently bound to an effect, such as Attack, Defense or Utility/Support
+    /// Spells that are currently bound to an effect, such as Attack, Defense or Utility/Support and its element / (or elements)
     /// </summary>
     //public Spells BoundSpells { get { return _BoundSpells; } }
 
