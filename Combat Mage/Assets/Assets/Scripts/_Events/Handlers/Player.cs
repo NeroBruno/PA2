@@ -27,7 +27,9 @@ public class Player : LivingEntity
 
     public Value<bool> ViewLocked = new Value<bool>();
 
-    public Value<float> Mana = new Value<float>(100f);
+    public readonly Value<float> Mana = new Value<float>(100f);
+
+    //public readonly Attempt<ManaEventData> ChangeMana = new Attempt<ManaEventData>();
 
     public Value<Vector2> MoveInput = new Value<Vector2>(Vector2.zero);
 
