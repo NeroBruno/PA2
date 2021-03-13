@@ -322,7 +322,7 @@ public class PlayerMovement : PlayerComponent
 
             // If player wants to move sideways
             if (Mathf.Abs(moveInput.x) > 0f)
-                desiredSpeed = _BackSpeed;
+                desiredSpeed = _SideSpeed;
 
             // If player wants to move backwards
             if (moveInput.y < 0f)
