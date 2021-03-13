@@ -21,6 +21,7 @@ public class LivingEntity : MonoBehaviour
 
     public readonly Value<Vector3> Velocity = new Value<Vector3>(Vector3.zero);
 
+    [HideInInspector]
     public Value<Vector3> LookDirection = new Value<Vector3>();
 
     public readonly Message<float> FallImpact = new Message<float>();

@@ -17,6 +17,7 @@ public class PlayerMovement : PlayerComponent
     [SerializeField]
     private CharacterController _Controller = null;
 
+    [SerializeField]
     private LayerMask _ObstacleCheckMask = ~0;
 
     [Header("Core Movement")]
@@ -68,6 +69,18 @@ public class PlayerMovement : PlayerComponent
     [Range(0f, 1.5f)]
     private float _JumpTimer = 0.3f;
 
+    //Sliding
+    [SerializeField]
+    private bool _EnableSliding = false;
+
+    [SerializeField]
+    [Range(20f, 90f)]
+    private float _SlideTreeshold = 32f;
+
+    [SerializeField]
+    [Range(0f, 50f)]
+    private float _SlideSpeed = 15f;
+
     //MISC
 
     [SerializeField]
@@ -75,6 +88,7 @@ public class PlayerMovement : PlayerComponent
     private float _Gravity = 20f;
 
     private Vector3 _DesiredVelocityLocal;
+    private Vector3 _SlideVelocity;
 
     private CollisionFlags _CollisionFlags;
     private bool _PreviouslyGrounded;
@@ -174,6 +188,21 @@ public class PlayerMovement : PlayerComponent
         //    if (runShouldStop)
         //        Player.Run.ForceStop();
         //}
+
+        
+        if (_EnableSliding)
+        {
+            //Sliding
+            if (surfaceAngle > _SlideTreeshold && Player.MoveInput.Get().sqrMagnitude == 0f)
+            {
+                Vector3 slideDirection = (SurfaceNormal + Vector3.down);
+                _SlideVelocity += slideDirection * _SlideSpeed * deltaTime;
+            }
+            else
+                _SlideVelocity = Vector3.Lerp(_SlideVelocity, Vector3.zero, deltaTime * 10f);
+
+            velocity += transform.InverseTransformVector(_SlideVelocity);
+        }
 
         // Advance step
         _DistMovedSinceLastCycleEnded += _DesiredVelocityLocal.magnitude * deltaTime;

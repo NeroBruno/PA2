@@ -17,7 +17,7 @@ public class PlayerInput_PC : PlayerComponent
 
             //Look
             Player.LookInput.Set(new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y")));
-            //Player.WantsToInteract.Set(Input.GetButton("Interact"));
+            Player.WantsToInteract.Set(Input.GetButton("Interact"));
 
             //Jump
             if (Input.GetButtonDown("Jump"))

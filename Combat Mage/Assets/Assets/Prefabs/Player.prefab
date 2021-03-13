@@ -40,6 +40,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4153806748434649800}
   - component: {fileID: 6122484381873028610}
+  - component: {fileID: 6684090155470166351}
+  - component: {fileID: 5137551032361675319}
+  - component: {fileID: 8176675685878582833}
+  - component: {fileID: 6746586978450100531}
+  - component: {fileID: 6575850677161822614}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -81,6 +86,203 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.9, z: 0}
+--- !u!82 &6684090155470166351
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4153806748434649803}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &5137551032361675319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4153806748434649803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd9aeee8851c3bd44808b28fcd2e397f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitboxes: []
+  _AudioSource: {fileID: 6684090155470166351}
+  _Animator: {fileID: 0}
+  _Camera: {fileID: 1358223372778507671}
+--- !u!114 &8176675685878582833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4153806748434649803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee5ee376b89b3674eaf671d05478c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6746586978450100531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4153806748434649803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e70dc2cd309a1145ae92d5c384c1a9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Controller: {fileID: 6122484381873028610}
+  _ObstacleCheckMask:
+    serializedVersion: 2
+    m_Bits: 129
+  _Acceleration: 10
+  _Damping: 8
+  _AirborneControl: 0.15
+  _StepLength: 1.35
+  _ForwardSpeed: 2.75
+  _BackSpeed: 2.25
+  _SideSpeed: 2.6
+  _SlopeSpeedMult:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _AntiBumpFactor: 0.2
+  _EnableJumping: 1
+  _JumpHeight: 1
+  _JumpTimer: 0.3
+  _EnableSliding: 1
+  _SlideTreeshold: 45
+  _SlideSpeed: 5
+  _Gravity: 20
+--- !u!114 &6575850677161822614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4153806748434649803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13165f4945f2d440b3b036fecb65d21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _WorldCamera: {fileID: 8613814258520413264}
+  _InteractionDistance: 2
+  _MaxInteractionAngle: 20
+  _LayerMask:
+    serializedVersion: 2
+    m_Bits: 129
 --- !u!1 &5321241561000825710
 GameObject:
   m_ObjectHideFlags: 0
@@ -170,6 +372,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f31b59c73f63d074fa0af1a764260cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _LookRoot: {fileID: 425590991245802019}
+  _PlayerRoot: {fileID: 4153806748434649800}
+  _Invert: 0
+  _Sensitivity: 2.5
+  _RollAngle: 5
+  _RollSpeed: 2
+  _DefaultLookLimits: {x: -80, y: 80}
 --- !u!81 &3247048961085795183
 AudioListener:
   m_ObjectHideFlags: 0
@@ -275,7 +484,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
