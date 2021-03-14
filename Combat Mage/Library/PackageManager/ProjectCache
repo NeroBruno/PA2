@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637505516575915501
+      ticks: 637513314784988401
     m_Hash: 2570917052
   m_LockFileStatus:
     m_FilePath: C:/Users/Couto/Visual Studio Projects/PA2/Combat Mage/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637509980001873769
+      ticks: 637513315354644099
     m_Hash: 1851384430
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

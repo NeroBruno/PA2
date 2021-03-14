@@ -430,6 +430,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6746586978450100531, guid: 0d478ab0e28ad554f95cb08978f4d84c, type: 3}
+      propertyPath: _BackSpeed
+      value: 4.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6746586978450100531, guid: 0d478ab0e28ad554f95cb08978f4d84c, type: 3}
+      propertyPath: _SideSpeed
+      value: 4.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6746586978450100531, guid: 0d478ab0e28ad554f95cb08978f4d84c, type: 3}
+      propertyPath: _ForwardSpeed
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d478ab0e28ad554f95cb08978f4d84c, type: 3}
 --- !u!1 &627050287
@@ -533,7 +545,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: ca80e22ff5ac5904c9601b6d159370f8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -812,6 +824,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 876134796}
+  - component: {fileID: 876134797}
   m_Layer: 0
   m_Name: GameUI
   m_TagString: Untagged
@@ -835,6 +848,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &876134797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876134795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 771f11b79e7ef20449389d098b5a74d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Canvas: {fileID: 727890594}
+  _Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &951357302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1102,7 +1129,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 36074d6b4717d9d4892c9bb01732ac1e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1198,7 +1225,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 104ea7a3c45263d4399a783e1123c0d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1307,7 +1334,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 8b9284c4e4636fd4295b04b7e22d0aa1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1503,6 +1530,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1948941543}
+  - component: {fileID: 1948941544}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -1524,6 +1552,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1948941544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948941542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f772ada86cfb16c4c94f8624083431f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _GameScenes: []
+  _CustomCursorTex: {fileID: 0}
+  _PreloadMaterialsInEditor: 1
+  _PreloadedMaterials: []
 --- !u!1 &2134902457
 GameObject:
   m_ObjectHideFlags: 0
