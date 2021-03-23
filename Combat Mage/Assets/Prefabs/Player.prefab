@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5776554672683993217
 Transform:
   m_ObjectHideFlags: 0
@@ -96,7 +96,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6137419616513639069
 Transform:
   m_ObjectHideFlags: 0
@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 8176675685878582833}
   - component: {fileID: 6746586978450100531}
   - component: {fileID: 6575850677161822614}
+  - component: {fileID: 18910462940640899}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -163,7 +164,7 @@ CharacterController:
   serializedVersion: 2
   m_Height: 1.8
   m_Radius: 0.35
-  m_SlopeLimit: 55
+  m_SlopeLimit: 50
   m_StepOffset: 0.2
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
@@ -307,7 +308,7 @@ MonoBehaviour:
   _Controller: {fileID: 6122484381873028610}
   _ObstacleCheckMask:
     serializedVersion: 2
-    m_Bits: 129
+    m_Bits: 193
   _Acceleration: 10
   _Damping: 8
   _AirborneControl: 0.15
@@ -342,9 +343,9 @@ MonoBehaviour:
   _AntiBumpFactor: 0.2
   _EnableJumping: 1
   _JumpHeight: 1
-  _JumpTimer: 0.3
+  _JumpTimer: 0.15
   _EnableSliding: 1
-  _SlideTreeshold: 45
+  _SlideTreeshold: 50
   _SlideSpeed: 5
   _Gravity: 20
 --- !u!114 &6575850677161822614
@@ -365,6 +366,44 @@ MonoBehaviour:
   _LayerMask:
     serializedVersion: 2
     m_Bits: 129
+--- !u!114 &18910462940640899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4153806748434649803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79d722661f3066544932e995ee94e82f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _DamageResistance:
+    _GenericResistance: 0.1
+    _FireResistance: 0.1
+    _AirResistance: 0.1
+    _EarthResistance: 0.1
+    _WaterResistance: 0.1
+  _MaxHealth: 100
+  _HealthRegeneration:
+    _Enabled: 0
+    _Pause: 3
+    _Speed: 3
+  _AudioSource: {fileID: 0}
+  _MinFallSpeed: 13
+  _MaxFallSpeed: 25.5
+  _TimeBetweenScreams: 1
+  _Animator: {fileID: 0}
+  _GetHitMax: 30
+  _ManaDepletionRate: 4
+  _ManaRegeneration:
+    _Enabled: 1
+    _Pause: 0.75
+    _Speed: 38
+  _BreathingHeavyDuration: 5
+  _JumpStaminaTake: 6
+  _EarRingingAudioVolumeDecrease: 0.215
+  _EarRingVolumeGainSpeed: 0.25
 --- !u!1 &5321241561000825710
 GameObject:
   m_ObjectHideFlags: 0

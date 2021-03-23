@@ -4,10 +4,10 @@ using Random = UnityEngine.Random;
 
 public class SoundPlayer : ICloneable
 {
-    //public int ClipCount { get { return _Clips.Count; } }
+    public int ClipCount { get { return _Clips.Count; } }
 
     [SerializeField]
-    //private AudioClipList _Clips = null;
+    private AudioClipList _Clips = null;
 
     //[SerializeField]
     private Vector2 _VolumeRange = new Vector2(0.5f, 0.75f);
@@ -28,24 +28,24 @@ public class SoundPlayer : ICloneable
 
     public void Play(AudioSource audioSource, float volume = 1f)
     {
-        //Play(ItemSelection.Method.RandomExcludeLast, audioSource, volume);
+        Play(ItemSelection.Method.RandomExcludeLast, audioSource, volume);
     }
 
-    //public void Play(ItemSelection.Method selectionMethod, AudioSource audioSource, float volume = 1f)
-    //{
-    //    if (!audioSource || _Clips.Count == 0)
-    //        return;
+    public void Play(ItemSelection.Method selectionMethod, AudioSource audioSource, float volume = 1f)
+    {
+        if (!audioSource || _Clips.Count == 0)
+            return;
 
-    //    if (_LastClipPlayed >= _Clips.Count || _LastClipPlayed <= -1)
-    //        _LastClipPlayed = _Clips.Count - 1;
+        if (_LastClipPlayed >= _Clips.Count || _LastClipPlayed <= -1)
+            _LastClipPlayed = _Clips.Count - 1;
 
-    //    AudioClip clipToPlay = _Clips.List.Select(ref _LastClipPlayed, selectionMethod);
+        AudioClip clipToPlay = _Clips.List.Select(ref _LastClipPlayed, selectionMethod);
 
-    //    var finalVolume = GetVolume() * volume;
-    //    audioSource.pitch = Random.Range(_PitchRange.x, _PitchRange.y);
+        var finalVolume = GetVolume() * volume;
+        audioSource.pitch = Random.Range(_PitchRange.x, _PitchRange.y);
 
-    //    audioSource.PlayOneShot(clipToPlay, finalVolume);
-    //}
+        audioSource.PlayOneShot(clipToPlay, finalVolume);
+    }
 
     /// <summary>
     /// Will use the AudioSource.PlayClipAtPoint() method, which doesnt include pitch variation
@@ -53,25 +53,25 @@ public class SoundPlayer : ICloneable
     /// <param name="selectionMethod"></param>
     /// <param name="position"></param>
     /// <param name="volume"></param>
-    //public void PlayAtPosition(ItemSelection.Method selectionMethod, Vector3 position, float volume = 1f)
-    //{
-    //    if (_Clips.Count == 0)
-    //        return;
+    public void PlayAtPosition(ItemSelection.Method selectionMethod, Vector3 position, float volume = 1f)
+    {
+        if (_Clips.Count == 0)
+            return;
 
-    //    AudioClip clipToPlay = _Clips.List.Select(ref _LastClipPlayed, selectionMethod);
+        AudioClip clipToPlay = _Clips.List.Select(ref _LastClipPlayed, selectionMethod);
 
-    //    AudioSource.PlayClipAtPoint(clipToPlay, position, GetVolume() * volume);
-    //}
+        AudioSource.PlayClipAtPoint(clipToPlay, position, GetVolume() * volume);
+    }
 
-    //public void Play2D(ItemSelection.Method selectionMethod = ItemSelection.Method.RandomExcludeLast, float volume = 1f)
-    //{
-    //    if (_Clips.Count == 0)
-    //        return;
+    public void Play2D(ItemSelection.Method selectionMethod = ItemSelection.Method.RandomExcludeLast, float volume = 1f)
+    {
+        if (_Clips.Count == 0)
+            return;
 
-    //    AudioClip clipToPlay = _Clips.List.Select(ref _LastClipPlayed, selectionMethod);
+        AudioClip clipToPlay = _Clips.List.Select(ref _LastClipPlayed, selectionMethod);
 
-    //    AudioUtils.Instace.Play2D(clipToPlay, GetVolume() * volume);
-    //}
+        //AudioUtils.Instace.Play2D(clipToPlay, GetVolume() * volume);
+    }
 
     private float GetVolume()
     {

@@ -15,8 +15,6 @@ public class LivingEntity : MonoBehaviour
 
     public readonly Attempt<HealthEventData> ChangeHealth = new Attempt<HealthEventData>();
 
-    //public readonly Attempt<ManaEventData> ChangeMana = new Attempt<ManaEventData>();
-
     public readonly Value<bool> IsGrounded = new Value<bool>(true);
 
     public readonly Value<Vector3> Velocity = new Value<Vector3>(Vector3.zero);

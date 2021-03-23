@@ -56,7 +56,7 @@ public class Player : LivingEntity
 
     //public Activity BindSpellAttack = new Activity();
 
-    public Activity CurrentSpellAttack = new Activity();
+    public Value<Spell> CurrentSpellAttack = new Value<Spell>();
 
     public Activity CurrentSpellDefend = new Activity();
 

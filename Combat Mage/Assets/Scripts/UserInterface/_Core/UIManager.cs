@@ -51,7 +51,7 @@ public class UIManager : MonoBehaviour
             _UIBehaviours[i].OnPostAttachment();
     }
 
-    private void Awake()
+    private void Update()
     {
         if (Input.GetMouseButtonDown(0))
             PointerDown.Send();

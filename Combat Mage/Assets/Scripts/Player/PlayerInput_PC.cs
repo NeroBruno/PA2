@@ -9,8 +9,9 @@ public class PlayerInput_PC : PlayerComponent
 {
     private void Update()
     {
-        if(!Player.Pause.Active && Player.ViewLocked.Is(false))
+        if (!Player.Pause.Active && Player.ViewLocked.Is(false))
         {
+
             //Movement
             Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
             Player.MoveInput.Set(moveInput);
@@ -23,6 +24,72 @@ public class PlayerInput_PC : PlayerComponent
             if (Input.GetButtonDown("Jump"))
                 Player.Jump.TryStart();
 
+            // Spell Binding
+            if (Input.GetButton("FireRune"))        // FIRE
+            {
+                if (Input.GetButtonDown("AttackSpell"))
+                    Debug.Log("Bound Fire Attack");
+                else if (Input.GetButtonDown("DefenseSpell"))
+                    Debug.Log("Bound Fire Defense");
+                else if (Input.GetButtonDown("SupportSpell"))
+                    Debug.Log("Bound Fire Support");
+            }
+            else if (Input.GetButton("AirRune"))    // AIR
+            {
+                if (Input.GetButtonDown("AttackSpell"))
+                    Debug.Log("Bound Air Attack");
+                else if (Input.GetButtonDown("DefenseSpell"))
+                    Debug.Log("Bound Air Defense");
+                else if (Input.GetButtonDown("SupportSpell"))
+                    Debug.Log("Bound Air Support");
+            }
+            else if (Input.GetButton("EarthRune"))  // EARTH
+            {
+                if (Input.GetButtonDown("AttackSpell"))
+                    Debug.Log("Bound Earth Attack");
+                else if (Input.GetButtonDown("DefenseSpell"))
+                    Debug.Log("Bound Earth Defense");
+                else if (Input.GetButtonDown("SupportSpell"))
+                    Debug.Log("Bound Earth Support");
+            }
+            else if (Input.GetButton("WaterRune"))  // WATER
+            {
+                if (Input.GetButtonDown("AttackSpell"))
+                    Debug.Log("Bound Water Attack");
+                else if (Input.GetButtonDown("DefenseSpell"))
+                    Debug.Log("Bound Water Defense");
+                else if (Input.GetButtonDown("SupportSpell"))
+                    Debug.Log("Bound Water Support");
+            }
+            // Spell Casting (Attack, Defense, Utility)
+            if (!Input.GetButton("FireRune") || !Input.GetButton("AirRune") || !Input.GetButton("EarthRune") || !Input.GetButton("WaterRune"))
+            {
+                // ATTACK
+                if (Input.GetButtonDown("AttackSpell") && (!Input.GetButton("DefenseSpell") || !Input.GetButtonDown("DefenseSpell"))) 
+                {
+                    if (Input.GetButtonUp("AttackSpell"))
+                        Debug.Log("Spell Attack");
+                }
+                
+                if (Input.GetButton("AttackSpell"))
+                    Debug.Log("Spell Charge Attack");
+
+                // DEFENSE
+                if (Input.GetButtonUp("DefenseSpell") && (!Input.GetButton("AttackSpell") || !Input.GetButtonDown("AttackSpell")))
+                {
+                    Debug.Log("Spell Parry Defense");
+                }
+
+                if (Input.GetButton("DefenseSpell"))
+                    Debug.Log("Spell Hold Defense");
+
+                // SUPPORT
+                if (Input.GetButtonDown("SupportSpell"))
+                {
+                    Debug.Log("Spell Support");
+                }
+            }
+
             //Bind Attack Spell
             //if (Input.GetButtonDown("LeftMouseButton") && isPressingElementalSpell)
             //    Player.CurrentSpellAttack.Set();
@@ -32,6 +99,14 @@ public class PlayerInput_PC : PlayerComponent
             //    Player.Attack.TryStart();
 
             // more stuff
+
+            // Suicide damage testing
+            if (Input.GetKeyDown(KeyCode.K))
+            {
+                HealthEventData damage = new HealthEventData(-1000f);
+                Player.ChangeHealth.Try(damage);
+            }
+
         }
         else
         {

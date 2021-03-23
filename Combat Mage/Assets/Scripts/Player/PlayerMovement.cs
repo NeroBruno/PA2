@@ -189,7 +189,7 @@ public class PlayerMovement : PlayerComponent
         //        Player.Run.ForceStop();
         //}
 
-        
+        // This code has some problem it is lagging the whole game, turns a 5 or 6ms time to render frame to 20ms or higher (about 200fps to less than 60)
         if (_EnableSliding)
         {
             //Sliding
