@@ -65,19 +65,22 @@ public class PlayerInput_PC : PlayerComponent
             if (!Input.GetButton("FireRune") || !Input.GetButton("AirRune") || !Input.GetButton("EarthRune") || !Input.GetButton("WaterRune"))
             {
                 // ATTACK
-                if (Input.GetButtonDown("AttackSpell") && (!Input.GetButton("DefenseSpell") || !Input.GetButtonDown("DefenseSpell"))) 
+                if (Input.GetButtonUp("AttackSpell") && (!Input.GetButton("DefenseSpell") || !Input.GetButtonDown("DefenseSpell"))) 
                 {
-                    if (Input.GetButtonUp("AttackSpell"))
-                        Debug.Log("Spell Attack");
+                    Player.Mana.Set(Mathf.Clamp(Player.Mana.Get() - 10, 0f, Mathf.Infinity));
                 }
                 
                 if (Input.GetButton("AttackSpell"))
                     Debug.Log("Spell Charge Attack");
 
                 // DEFENSE
-                if (Input.GetButtonUp("DefenseSpell") && (!Input.GetButton("AttackSpell") || !Input.GetButtonDown("AttackSpell")))
+                if (!Player.Aim.Active && Input.GetButton("DefenseSpell") && (!Input.GetButton("AttackSpell") || !Input.GetButtonDown("AttackSpell")))
                 {
-                    Debug.Log("Spell Parry Defense");
+                    Player.Aim.TryStart();
+                }
+                else if (Player.Aim.Active && !Input.GetButton("DefenseSpell") && (!Input.GetButton("AttackSpell") || !Input.GetButtonDown("AttackSpell")))
+                {
+                    Player.Aim.ForceStop();
                 }
 
                 if (Input.GetButton("DefenseSpell"))

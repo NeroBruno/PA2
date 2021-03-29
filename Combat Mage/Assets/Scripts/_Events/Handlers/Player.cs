@@ -30,8 +30,6 @@ public class Player : LivingEntity
 
     public readonly Value<float> Mana = new Value<float>(100f);
 
-    //public readonly Attempt<ManaEventData> ChangeMana = new Attempt<ManaEventData>();
-
     [HideInInspector]
     public Value<Vector2> MoveInput = new Value<Vector2>(Vector2.zero);
 
@@ -46,6 +44,8 @@ public class Player : LivingEntity
 
     public Activity Healing = new Activity();
 
+    public Activity Aim = new Activity();
+
     //public Attempt<Spell> BindSpellAttack = new Activity();
 
     //public Attempt<Spell> BindSpellDefend = new Activity();
@@ -58,7 +58,11 @@ public class Player : LivingEntity
 
     public Value<Spell> CurrentSpellAttack = new Value<Spell>();
 
-    public Activity CurrentSpellDefend = new Activity();
+    public Attempt SpellAttack = new Attempt();
+
+    public Activity SpellDefend = new Activity();
+
+    public Attempt SpellUtility = new Attempt();
 
     public Activity CurrentSpellUtility = new Activity();
 

@@ -132,11 +132,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 12fc9f0f35a31a340b7f343da36a76b5, type: 3}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -1057,6 +1057,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7280a40c8ba753145a500e0714e62fbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _BloodScreenFader:
+    _Image: {fileID: 0}
+    _MinAlpha: 0.4
+    _FadeInSpeed: 25
+    _FadeOutSpeed: 0.3
+    _FadeOutPause: 0.5
+  _DamageIndicatorRT: {fileID: 0}
+  _DamageIndicatorFader:
+    _Image: {fileID: 0}
+    _MinAlpha: 0.4
+    _FadeInSpeed: 25
+    _FadeOutSpeed: 0.3
+    _FadeOutPause: 0.5
+  _DamageIndicatorDistance: 128
 --- !u!1 &1841546635320600059
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,11 +1341,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 12fc9f0f35a31a340b7f343da36a76b5, type: 3}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
