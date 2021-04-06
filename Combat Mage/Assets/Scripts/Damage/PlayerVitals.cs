@@ -28,9 +28,9 @@ public class PlayerVitals : EntityVitals
     [SerializeField]
     private float _BreathingHeavyDuration = 11f;
 
-    [SerializeField]
-    [Range(0f, 100f)]
-    private float _JumpStaminaTake = 15f;
+    //[SerializeField]
+    //[Range(0f, 100f)]
+    //private float _JumpStaminaTake = 15f;
 
     [SerializeField]
     private SoundPlayer _JumpAudio = null;
@@ -52,6 +52,9 @@ public class PlayerVitals : EntityVitals
     {
         base.Update();
 
+        if (_ManaRegeneration.CanRegenerate && Player.Mana.Get() < 100f)
+            ModifyMana(_ManaRegeneration.RegenDelta);
+
         // Stamina. // Need to change this to mana based on spell used
         //if (Player.Run.Active)
         //{
@@ -69,7 +72,7 @@ public class PlayerVitals : EntityVitals
 
         //Using equipment stops stamina regen for a moment // Using spells stops mana regen
         //if (Player.UseOnce.LastExecutionTime + 0.1f > Time.time && Player.ActiveEquipmentItem.Val.StaminaTakePerUse > 0)
-        //    _StaminaRegeneration.Pause();
+        //    _ManaRegeneration.Pause();
 
         AudioListener.volume = Mathf.MoveTowards(AudioListener.volume, 1f, _EarRingVolumeGainSpeed * Time.deltaTime);
     }
@@ -110,11 +113,11 @@ public class PlayerVitals : EntityVitals
     //    }
     //}
 
-    private void ModifyStamina(float delta)
+    private void ModifyMana(float delta)
     {
-        //float stamina = Player.Stamina.Get() + delta;
-        //stamina = Mathf.Clamp(stamina, 0f, 100f);
-        //Player.Stamina.Set(stamina);
+        float mana = Player.Mana.Get() + delta;
+        mana = Mathf.Clamp(mana, 0f, 100f);
+        Player.Mana.Set(mana);
     }
 
     //private void OnJump()

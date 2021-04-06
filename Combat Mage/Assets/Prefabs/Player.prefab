@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &815802554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 815802555}
+  m_Layer: 0
+  m_Name: firePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &815802555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815802554}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.18, y: 0, z: 0.35}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425590991245802019}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1515960395818669514
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,6 +323,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee5ee376b89b3674eaf671d05478c33e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectile: {fileID: 3922798704413058403, guid: ab238f0a53c866f4ebc5c015c6b1651f, type: 3}
+  firePoint: {fileID: 815802555}
+  cam: {fileID: 8613814258520413264}
+  projectileSpeed: 20
+  fireRate: 4
+  arcRange: 0.65
 --- !u!114 &6746586978450100531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,6 +514,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5558654833574995330}
+  - {fileID: 815802555}
   m_Father: {fileID: 4153806748434649800}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

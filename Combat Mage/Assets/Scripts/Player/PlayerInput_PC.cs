@@ -65,13 +65,19 @@ public class PlayerInput_PC : PlayerComponent
             if (!Input.GetButton("FireRune") || !Input.GetButton("AirRune") || !Input.GetButton("EarthRune") || !Input.GetButton("WaterRune"))
             {
                 // ATTACK
-                if (Input.GetButtonUp("AttackSpell") && (!Input.GetButton("DefenseSpell") || !Input.GetButtonDown("DefenseSpell"))) 
+                if (Input.GetButtonDown("AttackSpell") && Time.time >= timeToFire && (!Input.GetButton("DefenseSpell")))
                 {
+                    timeToFire = Time.time + 1 / fireRate;
+                    ShootProjectile();
                     Player.Mana.Set(Mathf.Clamp(Player.Mana.Get() - 10, 0f, Mathf.Infinity));
                 }
+                //if (Input.GetButtonUp("AttackSpell") && (!Input.GetButton("DefenseSpell") || !Input.GetButtonDown("DefenseSpell"))) 
+                //{
+                //    Player.Mana.Set(Mathf.Clamp(Player.Mana.Get() - 10, 0f, Mathf.Infinity));
+                //}
                 
-                if (Input.GetButton("AttackSpell"))
-                    Debug.Log("Spell Charge Attack");
+                //if (Input.GetButton("AttackSpell"))
+                //    Debug.Log("Spell Charge Attack");
 
                 // DEFENSE
                 if (!Player.Aim.Active && Input.GetButton("DefenseSpell") && (!Input.GetButton("AttackSpell") || !Input.GetButtonDown("AttackSpell")))
@@ -119,5 +125,36 @@ public class PlayerInput_PC : PlayerComponent
             //Look
             Player.LookInput.Set(Vector2.zero);
         }
+    }
+
+    public GameObject projectile;
+    public Transform firePoint;
+    public Camera cam;
+    public float projectileSpeed = 30f;
+    public float fireRate = 4;
+    public float arcRange = 1;
+
+    private Vector3 destination;
+    private float timeToFire;
+
+    private void ShootProjectile()
+    {
+        Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit))
+            destination = hit.point;
+        else
+            destination = ray.GetPoint(1000);
+
+        InstantiateProjectile(firePoint);
+    }
+
+    private void InstantiateProjectile(Transform firePoint)
+    {
+        var projectileObj = Instantiate(projectile, firePoint.position, Quaternion.identity) as GameObject;
+        projectileObj.GetComponent<Rigidbody>().velocity = (destination - firePoint.position).normalized * projectileSpeed;
+
+        iTween.PunchPosition(projectileObj, new Vector3(Random.Range(arcRange, arcRange), Random.Range(arcRange, arcRange), 0), Random.Range(0.5f, 1.5f));
     }
 }
