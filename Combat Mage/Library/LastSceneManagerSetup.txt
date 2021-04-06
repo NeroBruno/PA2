@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Player Test.unity
+- path: Assets/Third Party/_DLNK/Ancient Caverns/Demoscene/ACaverns_demo00.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
